@@ -13,7 +13,7 @@ body {
 .main-nav {
     display: flex;
     list-style-type: none;
-    font-size: 0.7em;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -42,7 +42,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 70vh;
 }
 
 .grid-wrapper {
@@ -52,13 +52,13 @@ a {
 }
 
 .box>img {
-    width: 100%;
+    width: 80%;
 }
 
 .box {
     background-color: darkslategrey;
     padding: 100px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .yellow {
@@ -72,11 +72,11 @@ a {
     margin-bottom: 50px;
 }
 
-/**********************************************************/
+footer {
+    font-size: 1.2rem;
+}
 
-/* below is code inherited from original project template */
-
-/**********************************************************/
+/*** Copied from other place, reused ***
 
 .zone {
     cursor: pointer;
@@ -93,8 +93,6 @@ a {
     -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
-
-/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 
 /***********************************************************************
  *  Green Background
